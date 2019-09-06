@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.merggps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:10:5-81
+16-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:11:22-64
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+25
+26    <application
+26-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:13:5-47:19
+27        android:allowBackup="true"
+27-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:14:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.1.0-rc02] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\d23ca375c576c4f77f42c729153a7f8a\core-1.1.0-rc02\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:15:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:16:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:17:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:18:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:19:9-40
+36        <activity android:name="com.example.merggps.ActivityDoRetrofit" />
+36-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:20:9-65
+36-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:20:19-53
+37        <activity android:name="com.example.merggps.DepoisDoLoginActivity" />
+37-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:21:9-59
+37-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:21:19-56
+38        <activity android:name="com.example.merggps.MapsActivity" />
+38-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:22:9-50
+38-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:22:19-47
+39
+40        <!--
+41             The API key for Google Maps-based APIs is defined as a string resource.
+42             (See the file "res/values/google_maps_api.xml").
+43             Note that the API key is linked to the encryption key used to sign the APK.
+44             You need a different API key for each encryption key, including the release key that is used to
+45             sign the APK for publishing.
+46             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+47        -->
+48        <meta-data
+48-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:33:9-35:55
+49            android:name="com.google.android.geo.API_KEY"
+49-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:34:13-58
+50            android:value="@string/google_maps_key" />
+50-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:35:13-52
+51
+52        <activity
+52-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:37:9-46:20
+53            android:name="com.example.merggps.LoginActivity"
+53-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:38:13-42
+54            android:label="@string/title_activity_maps"
+54-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:39:13-56
+55            android:windowSoftInputMode="adjustPan|stateHidden" >
+55-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:40:13-64
+56            <intent-filter>
+56-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:41:13-45:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:42:17-69
+57-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:42:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:44:17-77
+59-->C:\Users\Treinamento\AndroidGit\MergGPS\app\src\main\AndroidManifest.xml:44:27-74
+60            </intent-filter>
+61        </activity>
+62        <!-- Needs to be explicitly declared on P+ -->
+63        <uses-library
+63-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+64            android:name="org.apache.http.legacy"
+64-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+65            android:required="false" />
+65-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\f44493a6ea1c354832c713f76ec40b93\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+66
+67        <activity
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\e0c2fbd83687e715ff9fc8d829f9deb2\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+68            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\e0c2fbd83687e715ff9fc8d829f9deb2\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+69            android:exported="false"
+69-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\e0c2fbd83687e715ff9fc8d829f9deb2\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+70            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+70-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\e0c2fbd83687e715ff9fc8d829f9deb2\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+71
+72        <meta-data
+72-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\195b4dfc05114bb6630db6950b6ae052\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+73            android:name="com.google.android.gms.version"
+73-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\195b4dfc05114bb6630db6950b6ae052\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+74            android:value="@integer/google_play_services_version" />
+74-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Treinamento\.gradle\caches\transforms-2\files-2.1\195b4dfc05114bb6630db6950b6ae052\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+75    </application>
+76
+77</manifest>
